@@ -41,5 +41,5 @@ jobs:
       with:
         image: shanureddy78/webapikaiburr
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: 'shanureddy78'
+        password: '9010090538'
