@@ -30,6 +30,10 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      env:
+        MONGO_INITDB_ROOT_USERNAME: ${{ MONGO_INITDB_ROOT_USERNAME }}
+        MONGO_INITDB_ROOT_PASSWORD: ${{ MONGO_INITDB_ROOT_PASSWORD }}
+        MONGO_INITDB_DATABASE: ${{ MONGO_INITDB_DATABASE }}
       run: mvn -B package --file pom.xml
     
     - name: Build and Push Docker Image
