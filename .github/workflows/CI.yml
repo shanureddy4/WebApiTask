@@ -19,7 +19,7 @@ jobs:
     - name: Start MongoDB
       uses: supercharge/mongodb-github-action@1.7.0
       with:
-        mongodb-version: ${{ matrix.mongodb-version }}
+        mongodb-version: 3.3
         mongodb-username: ${{ secrets.MONGO_INITDB_ROOT_USERNAME }}
         mongodb-password: ${{ secrets.MONGO_INITDB_ROOT_PASSWORD }}
         mongodb-db: ${{ secrets.MONGO_INITDB_DATABASE }}
