@@ -3,7 +3,7 @@ WORKDIR /workspace/app
 COPY mvnw .
 COPY pom.xml .
 COPY src src
-RUN mvn package
+RUN mvn -DskipTests=true  package
 EXPOSE 8080
 WORKDIR /workspace/app/target
 RUN mv *.jar app.jar
