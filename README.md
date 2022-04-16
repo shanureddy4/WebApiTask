@@ -64,6 +64,10 @@ This project requires an IDE that support spring boot applications. Intellij IDE
 ![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/GetIDException.png)
 **GET with names exception**
 ![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/similarnameException.png)
+**PUT server**
+![PUT](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/PUT.png)
+**DELETE server**
+![DELETE](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/DELETE.png)
 ## CI-CD pipeline with Github Actions
 With Githubactions this project implemented CI-CD pipeline. Whenever repository file changes
 following actions automated 
