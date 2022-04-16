@@ -49,7 +49,7 @@ public class ServersController {
         }
     }
     @CrossOrigin("http://localhost:4200")
-    @PostMapping("/api")
+    @PutMapping("/api")
     public ResponseEntity<?> addServer(@RequestBody Server server)
     {
         Server save = this.repo.save(server);
