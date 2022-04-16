@@ -65,9 +65,9 @@ This project requires an IDE that support spring boot applications. Intellij IDE
 **GET with names exception**
 ![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/similarnameException.png)
 ## CI-CD pipeline with Github Actions
-with Githubactions this project implemented CI-CD pipeline. Pipeline implemented with Maven setup. When ever repository files changed
+with Githubactions this project implemented CI-CD pipeline. Pipeline implemented with Maven setup. Whenever repository file changes
 following actions automated 
-  * Build our project with maven
+  * Build project with maven
   * Builds docker image with 'Dockerfile'
   * Pushes Image into docker hub.
  ### Output
