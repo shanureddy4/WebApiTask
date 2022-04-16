@@ -54,3 +54,5 @@ This project requires an IDE that support spring boot applications. Intellij IDE
 * /api{concern_id}
 
 ### Output
+**Get**
+![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/GET.png)
