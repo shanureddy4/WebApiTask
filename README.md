@@ -54,5 +54,13 @@ This project requires an IDE that support spring boot applications. Intellij IDE
 * /api{concern_id}
 
 ### Output
-**Get**
+**GET with id**
 ![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/GET.png)
+**GET similar with name**
+![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/getsimilar%20with%20name.png)
+**GET all**
+![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/GETALL.png)
+**GET id exception**
+![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/GetIDException.png)
+**GET with names exception**
+![Get](https://github.com/shanureddy4/WebApiTask/blob/master/Screenshots/similarnameException.png)
